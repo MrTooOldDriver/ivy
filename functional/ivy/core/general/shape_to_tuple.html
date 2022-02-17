@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Linalg &mdash; Ivy 1.0 documentation</title>
+  <title>shape_to_tuple &mdash; Ivy 1.0 documentation</title>
   
 
   
@@ -176,13 +176,13 @@
     
       <li><a href="../../../../index.html">Docs</a> &raquo;</li>
         
-      <li>Linalg</li>
+      <li>shape_to_tuple</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../../../_sources/functional/backends/torch/core/linalg.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/functional/ivy/core/general/shape_to_tuple.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -195,19 +195,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="linalg">
-<h1>Linalg<a class="headerlink" href="#linalg" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Linalg</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="linalg/svd.html">svd</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linalg/matrix_norm.html">matrix_norm</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linalg/inv.html">inv</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linalg/pinv.html">pinv</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linalg/cholesky.html">cholesky</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linalg/vector_to_skew_symmetric_matrix.html">vector_to_skew_symmetric_matrix</a></li>
-</ul>
+  <div class="section" id="shape-to-tuple">
+<h1>shape_to_tuple<a class="headerlink" href="#shape-to-tuple" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="ivy.functional.ivy.core.general.shape_to_tuple">
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">shape_to_tuple</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">shape</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>int<span class="p">, </span>Tuple<span class="p">[</span>int<span class="p">]</span><span class="p">, </span>List<span class="p">[</span>int<span class="p">]</span><span class="p">]</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../../_modules/ivy/functional/ivy/core/general.html#shape_to_tuple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.core.general.shape_to_tuple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a tuple representation of the input shape.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>shape</strong> – The shape input to convert to tuple representation.</p>
+</dd>
+<dt class="field-even">Retrn</dt>
+<dd class="field-even"><p>The shape in tuple representation</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><strong>Supported Frameworks:</strong></div>
 </div>
+<p><a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a> <a class="reference external" href="https://jax.readthedocs.io"><img alt="jax_logo" src="../../../../_images/jax_logo.png" style="width: 14%;" /></a> <a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a> <a class="reference external" href="https://www.tensorflow.org"><img alt="tf_logo" src="../../../../_images/tensorflow_logo.png" style="width: 14%;" /></a> <a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a> <a class="reference external" href="https://pytorch.org"><img alt="pytorch_logo" src="../../../../_images/pytorch_logo.png" style="width: 14%;" /></a> <a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a> <a class="reference external" href="https://mxnet.apache.org"><img alt="mxnet_logo" src="../../../../_images/mxnet_logo.png" style="width: 14%;" /></a> <a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a> <a class="reference external" href="https://numpy.org"><img alt="numpy_logo" src="../../../../_images/numpy_logo.png" style="width: 14%;" /></a> <a class="reference internal" href="../../../../_images/empty.png"><img alt="empty" src="../../../../_images/empty.png" style="width: 4%;" /></a></p>
 </div>
 
 

@@ -13,6 +13,7 @@ General
    :caption: General
 
    general/array.rst
+   general/asarray.rst
    general/is_array.rst
    general/array_equal.rst
    general/dtype_bits.rst
